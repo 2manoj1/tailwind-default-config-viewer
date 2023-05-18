@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-default-config-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cpfile": "node index.js",
+    "start": "npm run cpfile && tailwind-config-viewer -o",
+    "serve": "npm run cpfile && tailwind-config-viewer -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.5",
+    "tailwind-config-viewer": "^1.7.2"
+  }
+}
