@@ -6,7 +6,7 @@
   "scripts": {
     "cpfile": "node index.js",
     "start": "npm run cpfile && tailwind-config-viewer -o",
-    "serve": "npm run cpfile && tailwind-config-viewer -o"
+    "build": "tailwind-config-viewer export ./dist"
   },
   "keywords": [],
   "author": "",
