@@ -8,3 +8,12 @@ npm start
 ```
 
 - Its get latest default config and run tailwind-config-viewer on post 3000.
+
+Quickly visualize your Tailwind configuration with easy copy-pasting with your `tailwind.config.js`
+
+### Replace tailwind.config.js with yours tailwind.config.js or replace the content
+
+```sh
+npm i
+npm run dev
+```
