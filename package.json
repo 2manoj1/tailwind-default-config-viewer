@@ -6,10 +6,14 @@
   "scripts": {
     "cpfile": "node index.js",
     "start": "npm run cpfile && tailwind-config-viewer -o",
+    "dev": "tailwind-config-viewer -o",
     "build": "npm run cpfile && tailwind-config-viewer export ./dist"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "tailwind",
+    "tailwind-config-viewer"
+  ],
+  "author": "Manoj Mukherjee",
   "license": "ISC",
   "dependencies": {
     "shelljs": "^0.8.5",
