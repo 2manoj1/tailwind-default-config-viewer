@@ -7,6 +7,7 @@
     "cpfile": "node index.js",
     "start": "npm run cpfile && tailwind-config-viewer -o",
     "dev": "tailwind-config-viewer -o",
+    "custom-build": "tailwind-config-viewer export ./dist",
     "build": "npm run cpfile && tailwind-config-viewer export ./dist"
   },
   "keywords": [
